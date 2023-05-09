@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.10)
+set(CMAKE_CCX_STANDART 20)
+set(CMAKE_CXX_STANDART_REQUIRED True)
+project(HW_11.3_DYNAMIC_LIB)
+set(SOURCE_DLL Leaver.h Leaver.cpp)
+add_library(HW_11.3_DYNAMIC_LIB SHARED ${SOURCE_DLL})

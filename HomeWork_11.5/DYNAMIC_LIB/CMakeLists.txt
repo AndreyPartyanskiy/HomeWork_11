@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.10)
+set(CMAKE_CCX_STANDART 20)
+set(CMAKE_CXX_STANDART_REQUIRED True)
+project(DYNAMIC_LIB)
+set(SOURCE_DLL Equilateral_triangle.h Equilateral_triangle.cpp Figure.h Figure.cpp Isosceles_triangle.h Isosceles_triangle.cpp Parallelogram.h Parallelogram.cpp Quadrangle.h Quadrangle.cpp Rectangle_.h Rectangle_.cpp Rhombus.h Rhombus.cpp Right_triangle.h Right_triangle.cpp Square.h Square.cpp Triangle.h Triangle.cpp)
+add_library(DYNAMIC_LIB SHARED ${SOURCE_DLL})
